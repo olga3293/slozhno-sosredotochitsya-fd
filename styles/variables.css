@@ -11,11 +11,15 @@
   --text-color-light: #f1b2ce;
   --accent-color: #ff0070;
   --title-color: #db00ff;
+  --decorate-accent-color: #ff0070;
+  --menu-color: #ff0070;
+  --menu-hover-color: rgba(255, 0, 112, 0.4);
   --title-text-shadow: 4px 4px 0 var(--accent-color);
   --word-shadow: 2px 1px 0 var(--accent-color);
   --padding-inline: 10px;
   --padding-block: 10px;
   --section-margin-block: 50px;
+  --header-menu-margin-top: 64px;
 }
 
 @media(width >= 768px) {
@@ -24,5 +28,12 @@
     --padding-inline: 20px;
     --padding-block: 20px;
     --section-margin-block: 80px;
+    --header-menu-margin-top: 171px;
+  }
+}
+
+@media(width >= 1024px) {
+  :root {
+    --header-menu-margin-top: 0;
   }
 }
