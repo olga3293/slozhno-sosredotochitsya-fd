@@ -9,18 +9,6 @@
 }
 
 @media (prefers-color-scheme: light) {
-
-  @media (width >= 768px) {
-    .header__theme-menu {
-      margin-block-start: 171px;
-    }
-}
-
-  @media (width >= 1024px) {
-    .header__theme-menu {
-      margin-block-start: 0;
-    }
-  }
   :root {
     --body-background-img: url("../images/cover-image-light.png");
     --body-background-color: #fff1f7;
@@ -63,6 +51,18 @@
 
   .content-section__title {
     color: var(--text-color-dark);
+  }
+
+  @media (width >= 768px) {
+    .header__theme-menu {
+      margin-block-start: 171px;
+    }
+}
+
+  @media (width >= 1024px) {
+    .header__theme-menu {
+      margin-block-start: 0;
+    }
   }
 } 
 

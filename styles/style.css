@@ -302,11 +302,11 @@
     grid-column: 2 / 4;
   }
 
-  .content-section__wrapper:nth-child(3) .content-section__title{
+  .content-section__wrapper:nth-child(3) .content-section__title {
     min-width: 236px;
   }
 
-  .content-section__wrapper:nth-child(3) .content-section{
+  .content-section__wrapper:nth-child(3) .content-section {
     gap: 0 20px;
   }
 
@@ -351,7 +351,7 @@
   }
 }
 
-@media (width >= 1024px){
+@media (width >= 1024px) {
   .page {
     width: 100%;
     max-width: 1024px;
@@ -377,7 +377,7 @@
     align-self: center;
   }
 
-  .header__text  {
+  .header__text {
     align-self: center;
     max-width: 491px;
   }
