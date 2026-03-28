@@ -293,6 +293,10 @@
   }
 
   .content-section__wrapper {
+    margin-block-start: var(--section-margin-block, 80px);
+  }
+
+  .content-section__wrapper-type-how-difficult {
     margin-block-start: 60px;
   }
 
