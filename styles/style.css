@@ -157,7 +157,7 @@
 }
 
 .content-section__wrapper-type-how-concentration .content-section__description-title-main {
-  margin-block-end: 20px;
+  margin-block-end: 0;
 }
 
 .content-section__wrapper-type-how-concentration .title-decor:not(:first-child) {
@@ -177,9 +177,18 @@
   line-height: var(--main-line-height, 1.3);
 }
 
+.content-section__card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .content-section__description-title {
-  margin-block-end: 10px;
   color: var(--text-color-dark);
+}
+
+.content-section__wrapper-type-how-concentration .content-section__description-title:not(.content-section__description-title-main) {
+  font-weight: var(--font-weight-normal, 400);
 }
 
 .content-section__text {
